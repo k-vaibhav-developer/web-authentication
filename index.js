@@ -7,6 +7,7 @@ const {
     verifyAuthenticationResponse 
 } = require('@simplewebauthn/server')
 
+console.log("Just to learn fork in github");
 
 if (!globalThis.crypto) {
     globalThis.crypto = crypto;
